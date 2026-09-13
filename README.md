@@ -1,7 +1,7 @@
 # HackInvent BloxSmith Catalog
 
-[![Block baseline: 0.1.0](https://img.shields.io/badge/blocks-0.1.0-blue)](bloxsmith/1.0.9.json)
-[![Verified BloxSmith: 1.0.9](https://img.shields.io/badge/BloxSmith-1.0.9-brightgreen)](bloxsmith/1.0.9.json)
+[![Block baseline: 0.1.0](https://img.shields.io/badge/blocks-0.1.0-blue)](bloxsmith-1.0.9.json)
+[![Verified BloxSmith: 1.0.9](https://img.shields.io/badge/BloxSmith-1.0.9-brightgreen)](bloxsmith-1.0.9.json)
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
 
 Public, tester-approved compatibility information for BloxSmith blocks maintained by **HackInvent**. Validation happens in the private `bloxmith-blocs` workspace. This repository contains only public metadata and documentation, not the proprietary framework, test logs, credentials or user data.
@@ -14,11 +14,13 @@ Public, tester-approved compatibility information for BloxSmith blocks maintaine
 
 ## Files
 
+All JSON files live at the repository root. For each verified BloxSmith version `x.y.z`, the filenames are `bloxsmith-x.y.z.json` and `installable-x.y.z.json`; no category or version directories are used.
+
 | File | Consumer | Meaning |
 | --- | --- | --- |
 | [index.json](index.json) | HackInvent website | Available exact framework versions, paths, counts and SHA-256 digests of the JSON documents |
-| [bloxsmith/1.0.9.json](bloxsmith/1.0.9.json) | HackInvent website | The 40 approved releases and their **bundled-mode** test evidence |
-| [installable/1.0.9.json](installable/1.0.9.json) | BloxSmith installer | Framework catalog schema v1; `blocks` is deliberately empty pending managed-installation validation |
+| [bloxsmith-1.0.9.json](bloxsmith-1.0.9.json) | HackInvent website | The 40 approved releases and their **bundled-mode** test evidence |
+| [installable-1.0.9.json](installable-1.0.9.json) | BloxSmith installer | Framework catalog schema v1; `blocks` is deliberately empty pending managed-installation validation |
 
 The website feed uses `validated_releases`, not the installer's `blocks` array. **Do not give the website feed URL to the installer.** An informational `not_validated` flag inside an otherwise installable entry would not protect users: the framework ignores unknown informational fields. Unvalidated installable packages must therefore be absent from `blocks`.
 
@@ -29,7 +31,7 @@ The website feed uses `validated_releases`, not the installer's `blocks` array. 
 3. Display `validated_releases` with block version, release link, validation date and **validation scope**. The current scope must be described as "verified in bundled mode", not "certified for installation".
 4. Enable a certified-installation action only for entries actually present in the separate `installable` catalog. That list is currently empty.
 
-If a framework version is absent, show **not validated**. Do not silently fall back to a neighboring version or a GitHub `latest` release. The index is a website discovery document, not a recursive framework catalog: configure the installer with a direct `installable/<version>.json` URL.
+If a framework version is absent, show **not validated**. Do not silently fall back to a neighboring version or a GitHub `latest` release. The index is a website discovery document, not a recursive framework catalog: configure the installer with a direct `installable-<version>.json` URL.
 
 Serve these files over HTTPS with `Content-Type: application/json; charset=utf-8`. Deploy the complete set of files as one revision so the index hashes and document contents agree. The repository itself does not configure the HackInvent website or GitHub Pages.
 
@@ -37,7 +39,7 @@ Serve these files over HTTPS with `Content-Type: application/json; charset=utf-8
 
 All documents use integer `schema_version: 1`, independently of block/framework release numbers.
 
-The index has `catalog_id`, `publisher` and a `catalogs` array. Each entry contains an exact `bloxsmith_version` and two descriptors, `compatibility` and `installable`. Each descriptor contains a repository-relative `path`, SHA-256 of the complete JSON file bytes, `size_bytes` and `release_count`.
+The index has `catalog_id`, `publisher` and a `catalogs` array. Each entry contains an exact `bloxsmith_version` and two descriptors, `compatibility` and `installable`. Each descriptor contains a `path` naming a JSON file at the repository root, SHA-256 of the complete JSON file bytes, `size_bytes` and `release_count`.
 
 A website feed contains `document_type: "bloxsmith_compatibility_evidence"`, `catalog_id`, `certified_by`, an exact `bloxsmith_version`, `validation_scope: "bundled"` and `validated_releases`. Each release includes:
 
