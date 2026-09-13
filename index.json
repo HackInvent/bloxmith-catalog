@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "catalog_id": "hackinvent.catalog.index",
+  "publisher": "HackInvent",
+  "catalogs": [
+    {
+      "bloxsmith_version": "1.0.9",
+      "compatibility": {
+        "path": "bloxsmith/1.0.9.json",
+        "sha256": "3ab5d6433377af143c90f406ec92a0a2a6e92ff4003947891f4fb2bd8ed1d2cc",
+        "size_bytes": 72413,
+        "release_count": 40
+      },
+      "installable": {
+        "path": "installable/1.0.9.json",
+        "sha256": "55d978921013aebfc6eeb62d8f17eec9f39f8325812e63d9234b5cf84a0cbf74",
+        "size_bytes": 197,
+        "release_count": 0
+      }
+    }
+  ]
+}

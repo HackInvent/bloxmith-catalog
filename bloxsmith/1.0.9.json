@@ -1,0 +1,1636 @@
+{
+  "schema_version": 1,
+  "document_type": "bloxsmith_compatibility_evidence",
+  "catalog_id": "hackinvent.compatibility",
+  "certified_by": "HackInvent",
+  "bloxsmith_version": "1.0.9",
+  "validation_scope": "bundled",
+  "validated_releases": [
+    {
+      "kind": "array_builder",
+      "title": "Array Builder",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-array-builder",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "1ebf442937c20e1cd1fc18ed2f38a3a447b0031d",
+        "url": "https://github.com/HackInvent/bloxmith-array-builder/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-array-builder/archive/1ebf442937c20e1cd1fc18ed2f38a3a447b0031d.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-array-builder/1ebf442937c20e1cd1fc18ed2f38a3a447b0031d/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-array-builder/1ebf442937c20e1cd1fc18ed2f38a3a447b0031d/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "5a18c6a7d496e40a99e22e1c2ee5acedcf3344aaee66824ff6ded53c3b14bfb5"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.32_array_builder_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "audio_play_stream",
+      "title": "Audio Play Stream",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-audio-play-stream",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "74c3e83a68bad89856e38b25b5fe84b08bbc475d",
+        "url": "https://github.com/HackInvent/bloxmith-audio-play-stream/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-audio-play-stream/archive/74c3e83a68bad89856e38b25b5fe84b08bbc475d.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-audio-play-stream/74c3e83a68bad89856e38b25b5fe84b08bbc475d/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-audio-play-stream/74c3e83a68bad89856e38b25b5fe84b08bbc475d/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "1de4e4a31658e398e9451e4f31f545963b8d55b0df6791187c4e33bb03ea6d4a"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.47_audio_play_stream_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "audio_record",
+      "title": "Audio Record",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-audio-record",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "becb602bfc788cf07cc656036c690a7b8b7d2c4f",
+        "url": "https://github.com/HackInvent/bloxmith-audio-record/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-audio-record/archive/becb602bfc788cf07cc656036c690a7b8b7d2c4f.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-audio-record/becb602bfc788cf07cc656036c690a7b8b7d2c4f/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-audio-record/becb602bfc788cf07cc656036c690a7b8b7d2c4f/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "ae790211243b7e25c40cd406a60854bbd5a9ffc698d8388bce3116a679e8cbd9"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.42_audio_record_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "audio_split",
+      "title": "Audio split",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-audio-split",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "e915b8023037a79ede4999a947e7d69eb5315706",
+        "url": "https://github.com/HackInvent/bloxmith-audio-split/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-audio-split/archive/e915b8023037a79ede4999a947e7d69eb5315706.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-audio-split/e915b8023037a79ede4999a947e7d69eb5315706/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-audio-split/e915b8023037a79ede4999a947e7d69eb5315706/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "4efb9888b7c47b92efec1cc631c280e94ab64daedfac184dba9dac5694d9e522"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.18_audio_split_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "camera_photo",
+      "title": "Camera Photo",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-camera-photo",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "7a578ddf357164f37707af6775ad5ae7dab3206c",
+        "url": "https://github.com/HackInvent/bloxmith-camera-photo/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-camera-photo/archive/7a578ddf357164f37707af6775ad5ae7dab3206c.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-camera-photo/7a578ddf357164f37707af6775ad5ae7dab3206c/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-camera-photo/7a578ddf357164f37707af6775ad5ae7dab3206c/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "46d16e8e3c37ab0207be1ec65ed0eca048ffa77c7eef19777033c4bffcfff204"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.21_camera_photo_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "chat_terminal",
+      "title": "Chat terminal",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-chat-terminal",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "436b4b936ce0b2ad7b485d2f6a93c3fdc4b53cae",
+        "url": "https://github.com/HackInvent/bloxmith-chat-terminal/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-chat-terminal/archive/436b4b936ce0b2ad7b485d2f6a93c3fdc4b53cae.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-chat-terminal/436b4b936ce0b2ad7b485d2f6a93c3fdc4b53cae/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-chat-terminal/436b4b936ce0b2ad7b485d2f6a93c3fdc4b53cae/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "5104530c9df366f337314f22bb667d2388b82791fbea7605c5e66ab3df3158ff"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.26_chat_terminal_block.py",
+          "tests/F5.27_chat_terminal_scroll_anchor.py"
+        ],
+        "suite_count": 2,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "claude_chat",
+      "title": "Claude Chat",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-claude-chat",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "127e46dbfd215b6e8d616cbbcafc3b47e7994f24",
+        "url": "https://github.com/HackInvent/bloxmith-claude-chat/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-claude-chat/archive/127e46dbfd215b6e8d616cbbcafc3b47e7994f24.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-claude-chat/127e46dbfd215b6e8d616cbbcafc3b47e7994f24/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-claude-chat/127e46dbfd215b6e8d616cbbcafc3b47e7994f24/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "46b9d920180bd417b79089bb85b9a3787584940d9a83a8019eb96233ff1f58df"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.20_claude_chat_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "claude_code",
+      "title": "Claude Code",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-claude-code",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "680de05416a9da88ff1d8c37d9ddf779dcb94890",
+        "url": "https://github.com/HackInvent/bloxmith-claude-code/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-claude-code/archive/680de05416a9da88ff1d8c37d9ddf779dcb94890.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-claude-code/680de05416a9da88ff1d8c37d9ddf779dcb94890/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-claude-code/680de05416a9da88ff1d8c37d9ddf779dcb94890/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "7879ee1b8a2d7a1113f65ed95013dc70b81787c4b7afc1917a527b252f3179ad"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.08_claude_code_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "cli",
+      "title": "CLI",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-cli",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "9bf9f298aa80c3acba710c632ede13a1b22b4efe",
+        "url": "https://github.com/HackInvent/bloxmith-cli/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-cli/archive/9bf9f298aa80c3acba710c632ede13a1b22b4efe.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-cli/9bf9f298aa80c3acba710c632ede13a1b22b4efe/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-cli/9bf9f298aa80c3acba710c632ede13a1b22b4efe/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "ba529897dbe0fe3c02b86d76ab169c8a0d7a708263a27c21ffa2d2ad373afdd5"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.07_cli_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "directory_list",
+      "title": "Directory List",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-directory-list",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "17a9eb346e1cf1568960daf6c28ab54577f632bc",
+        "url": "https://github.com/HackInvent/bloxmith-directory-list/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-directory-list/archive/17a9eb346e1cf1568960daf6c28ab54577f632bc.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-directory-list/17a9eb346e1cf1568960daf6c28ab54577f632bc/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-directory-list/17a9eb346e1cf1568960daf6c28ab54577f632bc/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "040baaa9132db694ab8f98c5d5a66d30e2c07551ef48d41baaa1194eff8b0ed8"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.19_directory_list_block.py",
+          "tests/F8.16_directory_list_node_card_ui.py"
+        ],
+        "suite_count": 2,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "event_or",
+      "title": "Event OR",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-event-or",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "3ea4bf6380e47609fa32470947a607058f45ca3e",
+        "url": "https://github.com/HackInvent/bloxmith-event-or/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-event-or/archive/3ea4bf6380e47609fa32470947a607058f45ca3e.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-event-or/3ea4bf6380e47609fa32470947a607058f45ca3e/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-event-or/3ea4bf6380e47609fa32470947a607058f45ca3e/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "ed840cf8623a34ef8abb35e63ffb39d6aaa3424353ac194d9020851d6f27d15c"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.04_event_or_first_event.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "file",
+      "title": "File Path",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-file",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "0dfae8b1383eda01947d9f04c5aa086fa189ceee",
+        "url": "https://github.com/HackInvent/bloxmith-file/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-file/archive/0dfae8b1383eda01947d9f04c5aa086fa189ceee.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-file/0dfae8b1383eda01947d9f04c5aa086fa189ceee/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-file/0dfae8b1383eda01947d9f04c5aa086fa189ceee/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "9fae71257e08659dea1e678ab3ce5c77b453ce21de713e7767877528f5ea2a50"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.09_file_blocks.py",
+          "tests/F8.09_file_block_inspector_panel_api.py"
+        ],
+        "suite_count": 2,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "file_content",
+      "title": "Fichier Contenu",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-file-content",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "f3b3b910b4f826e47fa1c3ca380a114b0f971884",
+        "url": "https://github.com/HackInvent/bloxmith-file-content/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-file-content/archive/f3b3b910b4f826e47fa1c3ca380a114b0f971884.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-file-content/f3b3b910b4f826e47fa1c3ca380a114b0f971884/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-file-content/f3b3b910b4f826e47fa1c3ca380a114b0f971884/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "fa5063bc8ac9405e3dad6ec39a08b47097e55c0f855cd5b6d2f791cb0e0a6f28"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.15_file_content_block.py",
+          "tests/F8.09_file_content_block_inspector_panel_api.py"
+        ],
+        "suite_count": 2,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "folder",
+      "title": "Folder",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-folder",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "5c1f5851529aa908cf3f3e76b4cf066f362d3205",
+        "url": "https://github.com/HackInvent/bloxmith-folder/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-folder/archive/5c1f5851529aa908cf3f3e76b4cf066f362d3205.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-folder/5c1f5851529aa908cf3f3e76b4cf066f362d3205/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-folder/5c1f5851529aa908cf3f3e76b4cf066f362d3205/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "3f9652468f413ffcd3a003e7bb37ff69f0b184e4666d7edd62f45e25069921a8"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.33_folder_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "gemini_cli",
+      "title": "Gemini CLI",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-gemini-cli",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "050bf433198afaec4bc068be24641a51890f3a13",
+        "url": "https://github.com/HackInvent/bloxmith-gemini-cli/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-gemini-cli/archive/050bf433198afaec4bc068be24641a51890f3a13.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-gemini-cli/050bf433198afaec4bc068be24641a51890f3a13/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-gemini-cli/050bf433198afaec4bc068be24641a51890f3a13/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "e5779e5edbb39418d09d008eee6cd65bdc2f6b23f3ce3df72f7063ab03e0b772"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.21_gemini_cli_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "github_issues",
+      "title": "GitHub Issues",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-github-issues",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "49ba272df3e5ea215c478cfb50bdf91cb1934b74",
+        "url": "https://github.com/HackInvent/bloxmith-github-issues/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-github-issues/archive/49ba272df3e5ea215c478cfb50bdf91cb1934b74.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-github-issues/49ba272df3e5ea215c478cfb50bdf91cb1934b74/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-github-issues/49ba272df3e5ea215c478cfb50bdf91cb1934b74/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "4c18ca0d606b8f4d83c7bd582fcff746fea069f1b463b4deb941719e289b0550"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.24_github_issues_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "github_issues_to_list",
+      "title": "GitHub Issues to List",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-github-issues-to-list",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "4e047d5e3e62a513c26bb166d6895d8cd6d60364",
+        "url": "https://github.com/HackInvent/bloxmith-github-issues-to-list/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-github-issues-to-list/archive/4e047d5e3e62a513c26bb166d6895d8cd6d60364.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-github-issues-to-list/4e047d5e3e62a513c26bb166d6895d8cd6d60364/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-github-issues-to-list/4e047d5e3e62a513c26bb166d6895d8cd6d60364/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "6685990fc10d0f5259c5ea89c780d41e4e069a9bacf0a3e69858a993b11f1f43"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.25_github_issues_to_list_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "github_pull_request",
+      "title": "Création PR",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-github-pull-request",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "b58f1bfe91beada0606f66db83dbc7978dfcdb83",
+        "url": "https://github.com/HackInvent/bloxmith-github-pull-request/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-github-pull-request/archive/b58f1bfe91beada0606f66db83dbc7978dfcdb83.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-github-pull-request/b58f1bfe91beada0606f66db83dbc7978dfcdb83/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-github-pull-request/b58f1bfe91beada0606f66db83dbc7978dfcdb83/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "2696c690b222ce2dfc0066270fe822b68c6d66ea00496d3fa9119455a883e7ae"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.26_github_pull_request_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "html_display",
+      "title": "Affichage HTML",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-html-display",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "f8adb1d8d4ec05714c005972bbbd549be815d159",
+        "url": "https://github.com/HackInvent/bloxmith-html-display/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-html-display/archive/f8adb1d8d4ec05714c005972bbbd549be815d159.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-html-display/f8adb1d8d4ec05714c005972bbbd549be815d159/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-html-display/f8adb1d8d4ec05714c005972bbbd549be815d159/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "7116d21c1280a1d361ceb4b63b3ab0423fce7996932b62219911582e60e7fceb"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.10_html_display_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "image",
+      "title": "Image",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-image",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "cc54326612b30fc754c7062258ba52a755a85634",
+        "url": "https://github.com/HackInvent/bloxmith-image/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-image/archive/cc54326612b30fc754c7062258ba52a755a85634.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-image/cc54326612b30fc754c7062258ba52a755a85634/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-image/cc54326612b30fc754c7062258ba52a755a85634/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "d4d2b5d07025f80ad7ccc7bb27244c22b00f4863a19ebb6f9d0a3c636073ab0d"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F11.13_active_image_block.py",
+          "tests/F5.12_image_block.py"
+        ],
+        "suite_count": 2,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "image_viewer",
+      "title": "Image Viewer",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-image-viewer",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "158cbd1db6587eddd9c0233bc1561bf5a946cf54",
+        "url": "https://github.com/HackInvent/bloxmith-image-viewer/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-image-viewer/archive/158cbd1db6587eddd9c0233bc1561bf5a946cf54.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-image-viewer/158cbd1db6587eddd9c0233bc1561bf5a946cf54/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-image-viewer/158cbd1db6587eddd9c0233bc1561bf5a946cf54/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "2674b94727102484059ee68fc3988ad845e562914f69055c4d5f71a117e81183"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.27_image_viewer_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "iterator",
+      "title": "Iterator",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-iterator",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "ae9a885043865b0f1b5deeb37408395a14880171",
+        "url": "https://github.com/HackInvent/bloxmith-iterator/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-iterator/archive/ae9a885043865b0f1b5deeb37408395a14880171.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-iterator/ae9a885043865b0f1b5deeb37408395a14880171/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-iterator/ae9a885043865b0f1b5deeb37408395a14880171/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "000130676c1b6ebf6c8df9b643f75b66c41c386ac185c3abc5ba017e9d4d2c0a"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F11.05_active_iterator_trigger.py",
+          "tests/F11.06_active_iterator_feedback_loop.py",
+          "tests/F11.19_active_list_seed_triggers_iterator.py",
+          "tests/F11.20_active_iterator_resume_from_text_trigger.py",
+          "tests/F11.21_active_iterator_text_seed_control.py",
+          "tests/F11.22_active_iterator_republished_list_resets_cursor.py",
+          "tests/F5.02_iterator_one_by_one.py",
+          "tests/F5.20_iterator_trigger_whitespace.py",
+          "tests/F8.14_iterator_block_inspector_panel_api.py"
+        ],
+        "suite_count": 9,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "list",
+      "title": "Liste",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-list",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "8c91c361e4ebb2e6e549a4e58e1dd04d303e7ab2",
+        "url": "https://github.com/HackInvent/bloxmith-list/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-list/archive/8c91c361e4ebb2e6e549a4e58e1dd04d303e7ab2.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-list/8c91c361e4ebb2e6e549a4e58e1dd04d303e7ab2/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-list/8c91c361e4ebb2e6e549a4e58e1dd04d303e7ab2/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "40839b850a49349b151fe9ea0d3f53915fd96d6bab2ff6a3ec06a38ea71fde54"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.01_list_json_output.py",
+          "tests/F8.06_list_block_modal_api.py",
+          "tests/F8.07_list_block_inspector_panel_api.py",
+          "tests/F8.17_list_modal_generic_binding.py"
+        ],
+        "suite_count": 4,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "markdown_display",
+      "title": "Visualiser md",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-markdown-display",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "936a7a70f423e5ec01e153106d63834066160a09",
+        "url": "https://github.com/HackInvent/bloxmith-markdown-display/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-markdown-display/archive/936a7a70f423e5ec01e153106d63834066160a09.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-markdown-display/936a7a70f423e5ec01e153106d63834066160a09/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-markdown-display/936a7a70f423e5ec01e153106d63834066160a09/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "b67ee001c4b27e59606abbe1d915d62bfa2453493f6211070922ae435bab6347"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.30_markdown_display_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "markdown_pdf",
+      "title": "Markdown PDF",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-markdown-pdf",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "6a7966e1eeccea80f5c5ae2859e8799feb0ec6bf",
+        "url": "https://github.com/HackInvent/bloxmith-markdown-pdf/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-markdown-pdf/archive/6a7966e1eeccea80f5c5ae2859e8799feb0ec6bf.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-markdown-pdf/6a7966e1eeccea80f5c5ae2859e8799feb0ec6bf/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-markdown-pdf/6a7966e1eeccea80f5c5ae2859e8799feb0ec6bf/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "d0f32987e84d0dc99e14eae7802f2b353b29a54c86e5d3ff7af008b269e175d0"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.23_markdown_pdf_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "mcp",
+      "title": "MCP",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-mcp",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "e8ded2728cdf148d2729e70c1a0360b6588eb8fb",
+        "url": "https://github.com/HackInvent/bloxmith-mcp/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-mcp/archive/e8ded2728cdf148d2729e70c1a0360b6588eb8fb.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-mcp/e8ded2728cdf148d2729e70c1a0360b6588eb8fb/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-mcp/e8ded2728cdf148d2729e70c1a0360b6588eb8fb/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "21e31d8f58568e7235263af3c3ccb4aedebba68708d4f3a197c9231976705f60"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.16_mcp_capability_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "merge",
+      "title": "Merge",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-merge",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "49f2566748f256db9dba6e8d6c455e1922fb71d1",
+        "url": "https://github.com/HackInvent/bloxmith-merge/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-merge/archive/49f2566748f256db9dba6e8d6c455e1922fb71d1.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-merge/49f2566748f256db9dba6e8d6c455e1922fb71d1/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-merge/49f2566748f256db9dba6e8d6c455e1922fb71d1/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "a1d6757c743b336d3f3b91b1dbaf8d407b7a3520fb4b8bb8a8be9bffa539a3f8"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.03_merge_concat_inputs.py",
+          "tests/F8.13_structure_block_inspector_panel_api.py"
+        ],
+        "suite_count": 2,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "microphone_stream",
+      "title": "Microphone Stream",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-microphone-stream",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "cc6e8840a66f3f981acf81b742ea8e3bb9209ab3",
+        "url": "https://github.com/HackInvent/bloxmith-microphone-stream/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-microphone-stream/archive/cc6e8840a66f3f981acf81b742ea8e3bb9209ab3.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-microphone-stream/cc6e8840a66f3f981acf81b742ea8e3bb9209ab3/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-microphone-stream/cc6e8840a66f3f981acf81b742ea8e3bb9209ab3/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "95e17b6aad46439dd2544a8294bceac0dbe615b3c4793483f49ca87b45665e96"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.44_microphone_stream_block.py",
+          "tests/F5.53_microphone_navigation.py"
+        ],
+        "suite_count": 2,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "mistral_vibe_cli",
+      "title": "Mistral Vibe CLI",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-mistral-vibe-cli",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "e9a25a16172a8c81340ffc5d20fd54f2ef80dcc9",
+        "url": "https://github.com/HackInvent/bloxmith-mistral-vibe-cli/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-mistral-vibe-cli/archive/e9a25a16172a8c81340ffc5d20fd54f2ef80dcc9.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-mistral-vibe-cli/e9a25a16172a8c81340ffc5d20fd54f2ef80dcc9/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-mistral-vibe-cli/e9a25a16172a8c81340ffc5d20fd54f2ef80dcc9/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "c3071a10202094ca51d633fa8c99bb14f443e2b4b7134465f36be4177fe92eaf"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.22_mistral_vibe_cli_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "openai_chat",
+      "title": "OpenAI Chat",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-openai-chat",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "3f780c2541793c6ddc254581d85b6e3afa061feb",
+        "url": "https://github.com/HackInvent/bloxmith-openai-chat/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-openai-chat/archive/3f780c2541793c6ddc254581d85b6e3afa061feb.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-openai-chat/3f780c2541793c6ddc254581d85b6e3afa061feb/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-openai-chat/3f780c2541793c6ddc254581d85b6e3afa061feb/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "23046a3166d6618d0fa09dc76f3db3940e7b29b062d163b95ab154f2f5e8cd61"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.18_openai_chat_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "openai_realtime_stt",
+      "title": "OpenAI Realtime STT",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-openai-realtime-stt",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "8ef2083680dc951b6cc19155843b69d6891150cc",
+        "url": "https://github.com/HackInvent/bloxmith-openai-realtime-stt/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-openai-realtime-stt/archive/8ef2083680dc951b6cc19155843b69d6891150cc.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-openai-realtime-stt/8ef2083680dc951b6cc19155843b69d6891150cc/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-openai-realtime-stt/8ef2083680dc951b6cc19155843b69d6891150cc/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "0ee44dbc69fae65cc1fc79fa45f6a7727766103d347320b1c4ace7d2900079de"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.46_openai_realtime_stt_block.py",
+          "tests/F5.52_external_turns.py"
+        ],
+        "suite_count": 2,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "openai_stt",
+      "title": "OpenAI STT",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-openai-stt",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "3cae1d722b957f86b8b00f9f33f7dd819a9db37b",
+        "url": "https://github.com/HackInvent/bloxmith-openai-stt/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-openai-stt/archive/3cae1d722b957f86b8b00f9f33f7dd819a9db37b.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-openai-stt/3cae1d722b957f86b8b00f9f33f7dd819a9db37b/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-openai-stt/3cae1d722b957f86b8b00f9f33f7dd819a9db37b/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "f81d8cce2da71e1a9e4484a157491ff21d26010fb04715d5358a9972e04f16dc"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.17_openai_stt_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "openai_tts_stream",
+      "title": "OpenAI TTS Stream",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-openai-tts-stream",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "f229829f4b7dafaa6252ebd4b683ca39a4bbea95",
+        "url": "https://github.com/HackInvent/bloxmith-openai-tts-stream/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-openai-tts-stream/archive/f229829f4b7dafaa6252ebd4b683ca39a4bbea95.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-openai-tts-stream/f229829f4b7dafaa6252ebd4b683ca39a4bbea95/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-openai-tts-stream/f229829f4b7dafaa6252ebd4b683ca39a4bbea95/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "9e5dd649edd3b68f9bf79e586062ea1aa446786918fc45a8b2d2c339a1d3984b"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.48_openai_tts_stream_block.py",
+          "tests/F5.49_opus_interoperability.py",
+          "tests/F5.50_tts_interrupt_commands.py"
+        ],
+        "suite_count": 3,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "python",
+      "title": "Python",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-python",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "6241fde16464e0ba0e1a3b4226536b3325d61103",
+        "url": "https://github.com/HackInvent/bloxmith-python/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-python/archive/6241fde16464e0ba0e1a3b4226536b3325d61103.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-python/6241fde16464e0ba0e1a3b4226536b3325d61103/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-python/6241fde16464e0ba0e1a3b4226536b3325d61103/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "a7d106baca7c718fa4bbc15f22f644426754c533b8da8e3b478581885c4f6331"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F11.07_active_python_feedback_loop.py",
+          "tests/F5.05_python_run_signature.py",
+          "tests/F8.18_python_block_modal_ui.py"
+        ],
+        "suite_count": 3,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "save_audio",
+      "title": "Save Audio",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-save-audio",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "8a21dcbf6dea6ceb3f64c164c3ddb667b17567cc",
+        "url": "https://github.com/HackInvent/bloxmith-save-audio/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-save-audio/archive/8a21dcbf6dea6ceb3f64c164c3ddb667b17567cc.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-save-audio/8a21dcbf6dea6ceb3f64c164c3ddb667b17567cc/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-save-audio/8a21dcbf6dea6ceb3f64c164c3ddb667b17567cc/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "c875501f3089e5476378437398c7e616b7e49a61eaad28e49a85f0370a39488e"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.45_save_audio_block.py",
+          "tests/F5.55_cancelled_streams.py"
+        ],
+        "suite_count": 2,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "save_file",
+      "title": "Enregistrer",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-save-file",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "d5146a2f2944cc892c2cb9556b7c4f27d8c3fe51",
+        "url": "https://github.com/HackInvent/bloxmith-save-file/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-save-file/archive/d5146a2f2944cc892c2cb9556b7c4f27d8c3fe51.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-save-file/d5146a2f2944cc892c2cb9556b7c4f27d8c3fe51/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-save-file/d5146a2f2944cc892c2cb9556b7c4f27d8c3fe51/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "1618d81ede280f49a78c7275c1cae40c47c4f741eaca3da4a0827a4cc2b14050"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.06_save_file_block.py",
+          "tests/F8.12_save_file_block_inspector_panel_api.py"
+        ],
+        "suite_count": 2,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "shell",
+      "title": "Shell",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-shell",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "ae7af9b6ea3a600115b4c35a9b5355ce2289c0ca",
+        "url": "https://github.com/HackInvent/bloxmith-shell/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-shell/archive/ae7af9b6ea3a600115b4c35a9b5355ce2289c0ca.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-shell/ae7af9b6ea3a600115b4c35a9b5355ce2289c0ca/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-shell/ae7af9b6ea3a600115b4c35a9b5355ce2289c0ca/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "a7699672a98ae9a498ed2cc5864277770975b9ef72bf2328d2d53e0131201691"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.13_shell_passthrough_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "topic_broadcast",
+      "title": "Topic Broadcast",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-topic-broadcast",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "cdd4d917e43fdeba84a538040f22642e45405a8a",
+        "url": "https://github.com/HackInvent/bloxmith-topic-broadcast/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-topic-broadcast/archive/cdd4d917e43fdeba84a538040f22642e45405a8a.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-topic-broadcast/cdd4d917e43fdeba84a538040f22642e45405a8a/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-topic-broadcast/cdd4d917e43fdeba84a538040f22642e45405a8a/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "f2854bc4fb1f463af26706957542d520d046769fc732999ca8f45e0d6d2a2685"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.43_topic_broadcast_block.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "voice_activity_detection",
+      "title": "Détection de voix (VAD)",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-voice-activity-detection",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "4a73f31a28d097a861a04a5d5c79191760482160",
+        "url": "https://github.com/HackInvent/bloxmith-voice-activity-detection/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-voice-activity-detection/archive/4a73f31a28d097a861a04a5d5c79191760482160.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-voice-activity-detection/4a73f31a28d097a861a04a5d5c79191760482160/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-voice-activity-detection/4a73f31a28d097a861a04a5d5c79191760482160/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "c32b1c2ea8717c4b4e602131a649615cba303c163d00db9f368ec7b6878b6599"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T13:49:01.904874+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F5.51_voice_activity_detection.py"
+        ],
+        "suite_count": 1,
+        "report_sha256": "cdbd5475f21a955d12586e10aa18522169c3ce058779dc013933edfe30616032"
+      }
+    },
+    {
+      "kind": "web_page",
+      "title": "Web Page",
+      "version": "0.1.0",
+      "bloxsmith_compatibility": [
+        "1.0.9"
+      ],
+      "tested_with_bloxsmith": "1.0.9",
+      "repository": "HackInvent/bloxmith-web-page",
+      "release": {
+        "tag": "v0.1.0",
+        "commit": "19a2a15b5966c9be0bd577c8b28d4b2519417e15",
+        "url": "https://github.com/HackInvent/bloxmith-web-page/releases/tag/v0.1.0",
+        "source_archive_url": "https://github.com/HackInvent/bloxmith-web-page/archive/19a2a15b5966c9be0bd577c8b28d4b2519417e15.zip"
+      },
+      "manifest_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-web-page/19a2a15b5966c9be0bd577c8b28d4b2519417e15/model.json",
+      "compatibility_url": "https://raw.githubusercontent.com/HackInvent/bloxmith-web-page/19a2a15b5966c9be0bd577c8b28d4b2519417e15/compatibility.json",
+      "source_fingerprint": {
+        "algorithm": "block-source-v1",
+        "sha256": "9b8ff7a5e6e29de85c426acb8308981c9d959d44e2c44952a6cda2071c459bc1"
+      },
+      "certification": {
+        "status": "verified",
+        "scope": "bundled",
+        "managed_installation": "not_validated"
+      },
+      "validation": {
+        "bloxsmith_version": "1.0.9",
+        "framework_commit": "c116ad3217a696d6408f9beb76def3c98f502b8f",
+        "framework_source_sha256": "9d1823215d180a49aea13bcbf1717e6bf80309ca7bc7197ddfca2f1bb47e9f6f",
+        "tested_at": "2026-09-13T12:54:12.362823+00:00",
+        "status": "passed",
+        "installation_mode": "bundled",
+        "suite_paths": [
+          "tests/F8.01_web_page_runtime.py",
+          "tests/F8.02_web_page_browser.py"
+        ],
+        "suite_count": 2,
+        "report_sha256": "d0a22ea3f627edcddfe65e65673ad5e9f4411d0b901dd235a8bc50757095e076"
+      }
+    }
+  ]
+}
